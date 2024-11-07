@@ -32,7 +32,7 @@ impl Game {
     }
 
     fn handle_card_exchange(&mut self) {
-        println!("入れ替えたいカードの番号を入力してください（例：1 2 3）");
+        println!("\n入れ替えたいカードの番号を入力してください（例: 1 2 3）");
         println!("何も入力せずに Enter を押すと入れ替えを終了します");
 
         let mut input = String::new();
